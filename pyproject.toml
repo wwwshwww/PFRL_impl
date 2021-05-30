@@ -8,9 +8,11 @@ authors = ["wwwshwww <www.shinderu.www@gmail.com>"]
 python = "^3.8"
 torch = "^1.8.1"
 pfrl = "^0.2.1"
-gym = {extras = ["box2d"], version = "^0.18.3"}
 pandas = "^1.2.4"
-Box2D = "^2.3.10"
+gym = {extras = ["box2d"], version = "^0.18.3"}
+atari-py = {git = "https://github.com/Kojoley/atari-py.git"}
+opencv-python = "^4.5.2"
+torchvision = "^0.9.1"
 
 [tool.poetry.dev-dependencies]
 jupyter = "^1.0.0"
